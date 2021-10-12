@@ -13,3 +13,6 @@ console.log(greeting);
 var year = 'leap';
 if (year === 'leap') var greeting = 'Hey 366 days';
 console.log(greeting);
+
+
+

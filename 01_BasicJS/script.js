@@ -54,3 +54,5 @@ let myObj = [
 console.log(`${JSON.stringify(myObj)}`);
 //The JSON.stringify() method converts a JavaScript object or value to a JSON string
 console.log(`type of myObj is ${typeof myObj}`);
+
+
