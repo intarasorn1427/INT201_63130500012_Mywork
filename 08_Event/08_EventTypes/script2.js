@@ -2,7 +2,7 @@
 const cancelBtn = document.querySelector('#cancel');
 const formEle = document.querySelector('#userForm');
 
-
+// เติม true จะเป็น captering เอา trueออกจะเป็น bubbling
 formEle.addEventListener('click', writeSomething, true);//here!!
 function writeSomething(event) {
   // console.log(event.target);
@@ -26,4 +26,3 @@ divFormEle.addEventListener(
   },  true //here!!
 );
 
-// เติม true จะเป็น captering เอา trueออกจะเป็น bubbling
